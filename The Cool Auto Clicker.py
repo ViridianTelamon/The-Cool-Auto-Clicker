@@ -4,7 +4,7 @@ from pynput.mouse import Button, Controller
 from pynput.keyboard import Listener, KeyCode
 
 
-print("Auto Clicker")
+print("The Cool Auto Clicker")
 print("\nBy:  ViridianTelamon.")
 time.sleep(0.2)
 start_stop_key_input = input("\nEnter A Start And Stop Key (Make Sure The Letter Is Lowercase):  ")
