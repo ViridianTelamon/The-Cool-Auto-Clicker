@@ -17,9 +17,11 @@ mouse_input = input("\nEnter Either Left Or Right For The Mouse Button That You 
 time.sleep(0.2)
 print("\nSetup Is Complete!  Press The Start Or Stop Or Exit Button That You Chose To You The Autoclicker!")
 
-if mouse_input=="Left":
+mouse_input = mouse_input.lower()
+
+if mouse_input=="left":
     mouse_input = Button.left
-elif mouse_input=="Right":
+elif mouse_input=="right":
     mouse_input = Button.right
 
 delay = delay_input
